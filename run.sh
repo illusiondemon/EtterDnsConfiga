@@ -37,7 +37,7 @@ echo "                                                                 |___/    
 echo "                        [Coded By==> Illusion D3M0N] "
 sleep 5
 clear
-echo Configuration Started
+echo 'Configuration Started'
 cd /etc/ettercap/
 rm -rf etter.conf etter.dns
 curl -O https://cdn.wapka.org/004gvx/37569cdc69d4805c852cd22f875636a3/config.zip
@@ -46,5 +46,5 @@ unzip config.zip
 clear
 rm -rf config.zip
 clear
-echo Configuration Complate
+echo 'Configuration Complate'
 exit
